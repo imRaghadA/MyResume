@@ -1,0 +1,119 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fafafa;
+    text-align: left; 
+}
+
+header {
+    background-color: #166054;
+    color: #ffffff;
+    padding: 20px 0;
+    padding-left: 10px;
+    text-align: center; 
+}
+.HH1 {
+    font-size: 30px;
+    color:#ffffff
+}
+
+.img {
+    width: 120px;
+    height: 120px;
+    border-radius: 25%;
+    margin-top: 10px;
+    border: 3px solid #ffffff;
+}
+
+section {
+    margin: 20px auto;
+    padding: 0;
+    width: 85%;
+    max-width: 1100px;
+}
+
+h2 {
+    font-size: 25px;
+    color: #004d40;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #166054;
+}
+
+
+li {
+    margin-bottom: 10px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    font-size: 20px;
+    color: #00695c;
+}
+
+
+a {
+    color:  #00695c;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color : #88c6bf;
+}
+
+footer {
+    padding: 10px;
+    background-color: #004d40;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    header {
+        padding: 24px 16px; 
+    }
+    section {
+        width: 90%; 
+    }
+    header h1 {
+        font-size: 35px; 
+    }
+    img {
+        width: 100px;
+        height: 100px; 
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 16px 0;
+    }
+    header h1 {
+        font-size: 32px;
+    }
+    section {
+        width: 95%;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    header h1 {
+        font-size: 28px;
+    }
+    section {
+        padding: 8px; 
+    }
+    img {
+        width: 80px; 
+        height: 80px; 
+    }
+}
+
